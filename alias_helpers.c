@@ -29,7 +29,6 @@ int free_aliases(alias *alias_ptr)
  * command is an alias, and if so replace it with it's value
  * @args: argument to be checked
  * @alias_ptr: points to list of aliases to be checked against
- *
  * Return: TRUE
  */
 int check_if_alias(char **args, alias *alias_ptr)
